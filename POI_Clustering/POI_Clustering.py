@@ -52,7 +52,7 @@ plt.xticks(fontsize=19)
 plt.yticks(fontsize=19)
 fig = plt.gcf()
 fig.set_size_inches(15, 15)
-fig.savefig('POI of Shenzhen City Luohu District_w.png', dpi=100, bbox_inches='tight')
+fig.savefig('POI of Shenzhen City Luohu District.png', dpi=100, bbox_inches='tight')
 plt.show()
 
 '''
@@ -184,7 +184,7 @@ plt.yticks(fontsize=19)
 plt.legend(fontsize=19)
 fig = plt.gcf()
 fig.set_size_inches(15, 10)
-fig.savefig('POI Clustering of 7d_w.png', dpi=100, bbox_inches='tight')
+fig.savefig('POI Clustering of 7d.png', dpi=100, bbox_inches='tight')
 plt.show()
 
 '''
