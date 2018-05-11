@@ -10,3 +10,6 @@
 - 新增RGAN(Recurrent GAN)程序，RGAN是将原始GAN中的生成器和鉴别器替换为LSTM，在时间序列数据生成方面效果显著。
 - RGAN文件夹下parking.xls为已做脱敏处理的深圳市部分停车场数据。
 - 以任意一条停车数据为样本，训练RGAN，可以生成具有相似特征的新数据。但由于GAN本身的不稳定性，部分生成的数据会存在异常。![](https://github.com/SunGinous/POI_Clustering-Parking-data-generation-based-on-RGAN/blob/master/RGAN/iteration_5000batchsize_288/1.png)![](https://github.com/SunGinous/POI_Clustering-Parking-data-generation-based-on-RGAN/blob/master/RGAN/iteration_5000batchsize_288/9p.png)
+
+## 2018/5/11上传
+- 增加对深圳市部分停车场数据的正态性检验，对于数据量较少的情况，使用D'Agostino检验(D检验)效果较好。验证结果是聚类后，同一类型停车场数据具有一定的正态性。 
